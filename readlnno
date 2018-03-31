@@ -1,3 +1,8 @@
+#' `readlnno` to make it easy to loan number list for inserting in a sql
+#' 
+#' @param none
+#' @export
+
 readlnno <- function(){
     require(magrittr)
     lst <- readClipboard() %>% trimws()
