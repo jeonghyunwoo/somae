@@ -1,0 +1,6 @@
+readlnno <- function(){
+    require(magrittr)
+    lst <- readClipboard() %>% trimws()
+    lst <- paste0("'",lst,"'") %>% toString()
+    return(lst)
+    }
